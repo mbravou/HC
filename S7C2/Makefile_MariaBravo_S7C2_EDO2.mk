@@ -1,11 +1,11 @@
 # Generar datos
 prog:
-	g++ prog.cpp -o prog
-	./prog
+	g++ MariaBravo_S7C2_EDO2.cpp -o MariaBravo_S7C2_EDO2
+	./MariaBravo_S7C2_EDO2
 
 # Gráficos
 plot:
-	python plot.py
+	python PLOTS_MariaBravo_S7C2_EDO2.py
 
 # PDF
 pdf:
@@ -13,7 +13,7 @@ pdf:
 
 # Regla para limpiar archivos temporales
 clean:
-	rm -f *.log *.aux *.out
+	rm -f MariaBravo_S7C2_EDO2 *.log *.aux *.out
 
 # Todas las reglas
 all: prog plot pdf clean
