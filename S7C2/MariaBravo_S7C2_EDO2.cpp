@@ -60,7 +60,7 @@ int main() {
     double x0 = 0.1;
     double v0 = 0.0;
     double h = 0.0001;
-    double tf = 5.0;
+    double tf = 2.0;
     double k = 50.0;
     double m = 0.2;
     met_euler sol_euler = euler(t0, x0, v0, k, m, h, tf);
