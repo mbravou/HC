@@ -50,7 +50,6 @@ def animate(t):
     return line,
 
 ani = animation.FuncAnimation(fig, animate, frames=len(data2), interval=100, blit=True)
-ani.save('animacion_cuerda.mp4')
-#ani.save('animacion_cuerda.gif')
+ani.save('animacion_cuerda.gif', dpi=300)
 
 
